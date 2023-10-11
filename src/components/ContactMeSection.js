@@ -23,10 +23,10 @@ const LandingSection = () => {
   const { onOpen } = useAlertContext();
 
   const validationSchema = Yup.object().shape({
-    firstName: Yup.string('Enter your first name').required("Required"),
-    email: Yup.string('Enter your email').email('Invalid email address').required("Required"),
-    type: Yup.string('Select the type of request').required("Required").oneOf(["hireMe", "openSource", "other"]),
-    comment: Yup.string('Enter a comment').required("Required"),
+    firstName: Yup.string().required("Required"),
+    email: Yup.string().email('Invalid email address').required("Required"),
+    type: Yup.string().required("Required").oneOf(["hireMe", "openSource", "other"], "Please select a type of enquiry"),
+    comment: Yup.string().min(25, "Must be at least 25 characters long").required("Required"),
   });
 
   const formik = useFormik({
