@@ -33,7 +33,7 @@ const LandingSection = () => {
     initialValues: {
       firstName: '', 
       email: '', 
-      type: 'hireMe', 
+      type: 'select', 
       comment: '',
     },
     onSubmit: (values) => {
@@ -93,6 +93,7 @@ const LandingSection = () => {
                   name="type"
                   {...formik.getFieldProps('type')}
                   >
+                  <option value="select">--Select--</option>
                   <option value="hireMe">Freelance project proposal</option>
                   <option value="openSource">
                     Open source consultancy session
