@@ -13,13 +13,12 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    // backgroundColor="#2A4365"
     backgroundImage={backGround}
     backgroundSize="cover"
     width="100vw"
     maxWidth="100%"
+    id="top-section"
     >
-    {/* <Avatar name="Robert Horosewski" minH={150} maxW={150} size='2xl' src={headshot} />{' '} */}
     <VStack spacing={16}> 
      <VStack spacing={4} alignItems="center"> 
        <Avatar 
