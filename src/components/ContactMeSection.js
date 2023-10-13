@@ -71,7 +71,7 @@ const ContactMeSection = () => {
           Contact me
         </Heading>
         <Box p={6} rounded="md" w="100%">
-          <form onSubmit={ (e) => { formik.handleSubmit(e) } }>
+          <form onSubmit= {formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid={formik.touched.firstName && formik.errors.firstName}>
                 <FormLabel htmlFor="firstName">Name</FormLabel>
@@ -99,12 +99,12 @@ const ContactMeSection = () => {
                   name="type"
                   {...formik.getFieldProps('type')}
                   >
-                  <option value="select">--Select--</option>
-                  <option value="hireMe">Freelance project proposal</option>
-                  <option value="openSource">
+                  <option value="select" style={{backgroundColor: "#512DA8"}}>--Select--</option>
+                  <option value="hireMe" style={{backgroundColor: "#512DA8"}}>Freelance project proposal</option>
+                  <option value="openSource" style={{backgroundColor: "#512DA8"}}>
                     Open source consultancy session
                   </option>
-                  <option value="other">Other</option>
+                  <option value="other" style={{backgroundColor: "#512DA8"}}>Other</option>
                 </Select>
                 <FormErrorMessage>{formik.errors.type}</FormErrorMessage>
               </FormControl>
