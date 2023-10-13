@@ -40,13 +40,13 @@ const ProjectsSection = () => {
      spacing={8}
      id="projects-section"
    > 
-     <Heading as="h1"> 
+     <Heading as="h1" p={12}> 
        Featured Projects 
      </Heading> 
      <Box 
        display="grid" 
        gridTemplateColumns="repeat(2,minmax(0,1fr))" 
-       gridGap={8} 
+       gridGap={12} 
      > 
        {projects.map((project) => ( 
          <Card 

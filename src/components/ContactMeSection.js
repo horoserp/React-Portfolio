@@ -66,13 +66,13 @@ const ContactMeSection = () => {
       spacing={8}
       id="contactme-section"
     >
-      <VStack w="1024px" p={32} alignItems="flex-start">
+      <VStack w="1024px" p={5} alignItems="flex-start">
         <Heading as="h1">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box p={12} rounded="md" w="100%">
           <form onSubmit= {formik.handleSubmit}>
-            <VStack spacing={4}>
+            <VStack spacing={10}>
               <FormControl isInvalid={formik.touched.firstName && formik.errors.firstName}>
                 <FormLabel htmlFor="firstName">Name</FormLabel>
                 <Input
