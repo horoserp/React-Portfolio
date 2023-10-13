@@ -7,33 +7,37 @@ const greeting = "Hello, I am Robert!";
 const bio1 = "A frontend developer";
 const bio2 = "specialised in React";
 
-// Implement the UI for the LandingSection component according to the instructions.
-// Use a combination of Avatar, Heading and VStack components.
 const LandingSection = () => (
   <FullScreenSection
     justifyContent="center"
     alignItems="center"
     isDarkBackground
     backgroundColor="#2A4365"
-  >
-    <VStack spacing='32px'>
-      {/* <Avatar size='4xl' src='https://i.pravatar.cc/150?img=7' />{' '} */}
-      <Avatar name="Robert Horosewski" minH={150} maxW={150} size='2xl' src={headshot} />{' '}
-      <Heading as='h1' size='md'>
-        {greeting}
-      </Heading>
-      <Heading as="h5" size='4sxl'>
-        <br />
-      </Heading>
-      <Heading as='h2' size='2xl'>
-        {bio1}
-      </Heading>
-      <Heading as='h2' size='2xl'>
-        {bio2}
-      </Heading>
-    </VStack>
-
-  </FullScreenSection>
-);
+    >
+    {/* <Avatar name="Robert Horosewski" minH={150} maxW={150} size='2xl' src={headshot} />{' '} */}
+    <VStack spacing={16}> 
+     <VStack spacing={4} alignItems="center"> 
+       <Avatar 
+         src={headshot}
+         size="2xl" 
+         name="Robert Horosewski" 
+         minH={150}
+         maxW={150}
+       /> 
+       <Heading as="h4" size="md" noOfLines={1}> 
+         {greeting} 
+       </Heading> 
+     </VStack> 
+     <VStack spacing={6}> 
+       <Heading as="h1" size="3xl" noOfLines={1}> 
+         {bio1} 
+       </Heading> 
+       <Heading as="h1" size="3xl" noOfLines={1}> 
+         {bio2} 
+       </Heading> 
+     </VStack> 
+   </VStack> 
+ </FullScreenSection> 
+); 
 
 export default LandingSection;

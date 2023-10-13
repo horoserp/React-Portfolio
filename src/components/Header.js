@@ -32,35 +32,49 @@ const socials = [
   },
 ];
 
-const Header = () => {
-  const handleClick = (anchor) => () => {
-    const id = `${anchor}-section`;
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  };
+/** 
+* This component illustrates the use of both the useRef hook and useEffect hook. 
+* The useRef hook is used to create a reference to a DOM element, in order to tweak the header styles and run a transition animation. 
+* The useEffect hook is used to perform a subscription when the component is mounted and to unsubscribe when the component is unmounted. 
+* Additionally, it showcases a neat implementation to smoothly navigate to different sections of the page when clicking on the header elements. 
+*/ 
 
-  const boxRef = useRef(null);
-
-  var prevPosition = 0;
-
-  const handleScroll = () => {
-    if (prevPosition > window.scrollY) {
-      boxRef.current.style.transform = 'translateY(0)';
-    } else if (prevPosition < window.scrollY) {
-      boxRef.current.style.transform ='translateY(-200px)';
-    }
-    prevPosition = window.scrollY;
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll); 
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
+const Header = () => { 
+  const headerRef = useRef(null); 
+  
+  useEffect(() => { 
+    let prevScrollPos = window.scrollY; 
+  
+    const handleScroll = () => { 
+      const currentScrollPos = window.scrollY; 
+      const headerElement = headerRef.current; 
+      if (!headerElement) { 
+        return; 
+      } 
+      if (prevScrollPos > currentScrollPos) { 
+        headerElement.style.transform = "translateY(0)"; 
+      } else { 
+        headerElement.style.transform = "translateY(-200px)"; 
+      } 
+      prevScrollPos = currentScrollPos; 
+    } 
+    window.addEventListener('scroll', handleScroll) 
+  
+    return () => { 
+      window.removeEventListener('scroll', handleScroll) 
+    } 
+  }, []); 
+  
+  const handleClick = (anchor) => () => { 
+    const id = `${anchor}-section`; 
+    const element = document.getElementById(id); 
+    if (element) { 
+      element.scrollIntoView({ 
+        behavior: "smooth", 
+        block: "start", 
+      }); 
+    } 
+  }; 
 
   return (
     <Box
@@ -73,7 +87,7 @@ const Header = () => {
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
       backgroundColor="#18181b"
-      ref={boxRef}
+      ref={headerRef}
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
@@ -84,19 +98,22 @@ const Header = () => {
         >
           <nav>
             <HStack spacing={8}>
-                {/* Add social media links based on the `socials` data */}
-                <a href={socials[0].url}><FontAwesomeIcon icon={socials[0].icon} size="2x"/></a>
-                <a href={socials[1].url}><FontAwesomeIcon icon={socials[1].icon} size="2x"/></a>
-                <a href={socials[2].url}><FontAwesomeIcon icon={socials[2].icon} size="2x"/></a>
-                <a href={socials[3].url}><FontAwesomeIcon icon={socials[3].icon} size="2x"/></a>
-                <a href={socials[4].url}><FontAwesomeIcon icon={socials[4].icon} size="2x"/></a>
-              </HStack>
+              {socials.map(({ icon, url }) => ( 
+               <a 
+                 key={url} 
+                 href={url} 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+               > 
+                 <FontAwesomeIcon icon={icon} size="2x" key={url} /> 
+               </a> 
+              ))}
+            </HStack>
           </nav>
           <nav>
             <HStack spacing={8}>
-              {/* Add links to Projects and Contact me section */}
               <a href="#projects" onClick={handleClick('projects')}>Projects</a>"
-              <a href="#contact-me" onClick={handleClick('contactme')}>Contact Me</a>
+              <a href="#contactme" onClick={handleClick('contactme')}>Contact Me</a>
             </HStack>
           </nav>
         </HStack>

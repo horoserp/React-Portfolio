@@ -18,15 +18,22 @@ import useSubmit from "../hooks/useSubmit";
 import {useAlertContext} from "../context/alertContext";
 import { wait } from "@testing-library/user-event/dist/utils";
 
-const LandingSection = () => {
+const ContactMeSection = () => {
   const {isLoading, response, submit} = useSubmit();
   const { onOpen } = useAlertContext();
 
   const validationSchema = Yup.object().shape({
-    firstName: Yup.string().required("Required"),
-    email: Yup.string().email('Invalid email address').required("Required"),
-    type: Yup.string().required("Required").oneOf(["hireMe", "openSource", "other"], "Please select a type of enquiry"),
-    comment: Yup.string().min(25, "Must be at least 25 characters long").required("Required"),
+    firstName: Yup.string()
+      .required("Required"),
+    email: Yup.string()
+      .email('Invalid email address')
+      .required("Required"),
+    type: Yup.string()
+      .oneOf(["hireMe", "openSource", "other"], "Please select a type of enquiry")
+      .required("Required"),
+    comment: Yup.string()
+      .min(25, "Must be at least 25 characters long")
+      .required("Required"),
   });
 
   const formik = useFormik({
@@ -48,8 +55,6 @@ const LandingSection = () => {
       if (response.type === "success") {
         formik.resetForm();
       }
-    } else {
-      response;
     }
   },[response])
 
@@ -59,9 +64,10 @@ const LandingSection = () => {
       backgroundColor="#512DA8"
       py={16}
       spacing={8}
+      id="contactme-section"
     >
       <VStack w="1024px" p={32} alignItems="flex-start">
-        <Heading as="h1" id="contactme-section">
+        <Heading as="h1">
           Contact me
         </Heading>
         <Box p={6} rounded="md" w="100%">
@@ -112,8 +118,8 @@ const LandingSection = () => {
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
-              <Button type="submit" colorScheme="purple" width="full">
-                {isLoading ? "...Loading" : "Submit"}
+              <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
+                Submit
               </Button>
             </VStack>
           </form>
@@ -123,4 +129,4 @@ const LandingSection = () => {
   );
 };
 
-export default LandingSection;
+export default ContactMeSection;
