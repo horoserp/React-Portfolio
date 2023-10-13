@@ -28,15 +28,15 @@ const LandingSection = () => (
          minH={150}
          maxW={150}
        /> 
-       <Heading as="h4" size="xl" noOfLines={1} textShadow={"2px 2px 5px purple"}> 
+       <Heading as="h4" size="xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
          {greeting} 
        </Heading> 
      </VStack> 
      <VStack spacing={6}> 
-       <Heading as="h1" size="3xl" noOfLines={1}> 
+       <Heading as="h1" size="3xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
          {bio1} 
        </Heading> 
-       <Heading as="h1" size="3xl" noOfLines={1}> 
+       <Heading as="h1" size="3xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
          {bio2} 
        </Heading> 
      </VStack> 
