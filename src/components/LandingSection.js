@@ -27,7 +27,7 @@ const LandingSection = () => (
          name="Robert Horosewski" 
          minH={150}
          maxW={150}
-         bgColor={red}
+        //  bgColor={red}
        /> 
        <Heading as="h4" size="xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
          {greeting} 
