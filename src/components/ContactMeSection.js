@@ -3,6 +3,7 @@ import { useFormik } from "formik";
 import {
   Box,
   Button,
+  Flex,
   FormControl,
   FormErrorMessage,
   FormLabel,
@@ -16,7 +17,6 @@ import * as Yup from 'yup';
 import FullScreenSection from "./FullScreenSection";
 import useSubmit from "../hooks/useSubmit";
 import {useAlertContext} from "../context/alertContext";
-import { wait } from "@testing-library/user-event/dist/utils";
 
 const ContactMeSection = () => {
   const {isLoading, response, submit} = useSubmit();
@@ -38,9 +38,9 @@ const ContactMeSection = () => {
 
   const formik = useFormik({
     initialValues: {
-      firstName: '', 
-      email: '', 
-      type: 'select', 
+      firstName: '',
+      email: '',
+      type: 'select',
       comment: '',
     },
     onSubmit: (values) => {
@@ -66,21 +66,21 @@ const ContactMeSection = () => {
       spacing={8}
       id="contactme-section"
     >
-      <VStack w="1024px" p={5} alignItems="flex-start">
+      <VStack w="1024px" p={5}>
         <Heading as="h1">
           Contact me
         </Heading>
-        <Box p={12} rounded="md" w="100%">
+        <Flex alignItems="center" justify="center" p={12} rounded="md" w="100%">
           <form onSubmit= {formik.handleSubmit}>
             <VStack spacing={10}>
               <FormControl isInvalid={formik.touched.firstName && formik.errors.firstName}>
-                <FormLabel htmlFor="firstName">Name</FormLabel>
+                <FormLabel w="60vw" htmlFor="firstName">Name</FormLabel>
                 <Input
                   id="firstName"
                   name="firstName"
                   {...formik.getFieldProps('firstName')}
                 />
-                {<FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>}                
+                {<FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>}
               </FormControl>
               <FormControl isInvalid={formik.touched.email && formik.errors.email}>
                 <FormLabel htmlFor="email">Email Address</FormLabel>
@@ -93,9 +93,9 @@ const ContactMeSection = () => {
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid={formik.touched.type && formik.errors.type}>
-                <FormLabel htmlFor="type">Type of enquiry</FormLabel>
-                <Select 
-                  id="type" 
+                <FormLabel htmlFor="type">Type of inquiry</FormLabel>
+                <Select
+                  id="type"
                   name="type"
                   {...formik.getFieldProps('type')}
                   >
@@ -123,7 +123,7 @@ const ContactMeSection = () => {
               </Button>
             </VStack>
           </form>
-        </Box>
+        </Flex>
       </VStack>
     </FullScreenSection>
   );

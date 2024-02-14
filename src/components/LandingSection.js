@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Heading, VStack } from "@chakra-ui/react";
+import { Avatar, Heading, VStack, Box } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import headshot from '../images/Headshot.png';
 import backGround from '../images/Home-BG-Photo.jpg'
@@ -19,30 +19,29 @@ const LandingSection = () => (
     maxWidth="100%"
     id="top-section"
     >
-    <VStack spacing={16}> 
-     <VStack spacing={4} alignItems="center"> 
-       <Avatar 
+    <VStack spacing={16}>
+     <VStack spacing={4} alignItems="center">
+        <Avatar
          src={headshot}
-         size="2xl" 
-         name="Robert Horosewski" 
+         size="2xl"
+         name="Robert Horosewski"
          minH={150}
          maxW={150}
-        //  bgColor={red}
-       /> 
-       <Heading as="h4" size="xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
-         {greeting} 
-       </Heading> 
-     </VStack> 
-     <VStack spacing={6}> 
-       <Heading as="h1" size="3xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
-         {bio1} 
-       </Heading> 
-       <Heading as="h1" size="3xl" noOfLines={1} textShadow={"5px 5px 5px purple"}> 
-         {bio2} 
-       </Heading> 
-     </VStack> 
-   </VStack> 
- </FullScreenSection> 
-); 
+       />
+       <Heading as="h4" size="xl" noOfLines={1} textShadow={"5px 5px 5px purple"}>
+         {greeting}
+       </Heading>
+     </VStack>
+     <VStack spacing={6}>
+       <Heading as="h1" size="3xl" lineHeight={1.4} noOfLines={1} textShadow={"5px 5px 5px purple"}>
+         {bio1}
+       </Heading>
+       <Heading as="h1" size="3xl" lineHeight={1.4} noOfLines={1} textShadow={"5px 5px 5px purple"}>
+         {bio2}
+       </Heading>
+     </VStack>
+   </VStack>
+ </FullScreenSection>
+);
 
 export default LandingSection;

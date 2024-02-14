@@ -7,6 +7,9 @@ import Footer from "./components/Footer";
 import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
 
+// To serve, add the following to package.json:
+// "homepage": "https://horoserp.github.io/React-Portfolio#top",
+
 function App() {
   return (
     <ChakraProvider>
