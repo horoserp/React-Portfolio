@@ -1,8 +1,12 @@
 import React from "react";
 import { Avatar, Heading, VStack, Box } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
-import headshot from '../images/Headshot.png';
-import backGround from '../images/Home-BG-Photo.jpg'
+// Use for VS Code Development Server
+// import headshot from '../images/Headshot.png';
+// import backGround from '../images/Home-BG-Photo.jpg'
+// Use for GitHub Pages
+import headshot from './images/Headshot.png';
+import backGround from './images/Home-BG-Photo.jpg'
 
 const greeting = "Hello, I am Robert!";
 const bio1 = "A frontend developer";
