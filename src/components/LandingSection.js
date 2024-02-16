@@ -5,8 +5,8 @@ import FullScreenSection from "./FullScreenSection";
 // import headshot from '../images/Headshot.png';
 // import backGround from '../images/Home-BG-Photo.jpg'
 // Use for GitHub Pages
-import headshot from './images/Headshot.png';
-import backGround from './images/Home-BG-Photo.jpg'
+import headshot from 'images/Headshot.png';
+import backGround from 'images/Home-BG-Photo.jpg'
 
 const greeting = "Hello, I am Robert!";
 const bio1 = "A frontend developer";
