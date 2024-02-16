@@ -13,7 +13,7 @@ const projects = [
  {
    title: "Reservation Page",
    description:
-     "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+     "React built, responsive site illustrating skills including implementing forms with validation (custom JavaScript, Formik and Yup), hooks, JSX, the map function, as well as props and children.",
    imageSrc: "https://i.ibb.co/4jbLdPY/Reservations.png",
  },
  {

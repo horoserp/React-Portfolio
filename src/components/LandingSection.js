@@ -31,10 +31,10 @@ const LandingSection = () => (
        </Heading>
      </VStack>
      <VStack spacing={6}>
-       <Heading as="h1" fontSize={{ base: "40px", md: "40px", lg: "56px"}} lineHeight={1.4} noOfLines={1} textShadow={"5px 5px 5px purple"}>
+       <Heading as="h1" fontSize={{ base: "28px", md: "40px", lg: "56px"}} lineHeight={1.4} noOfLines={1} textShadow={"5px 5px 5px purple"}>
          {bio1}
        </Heading>
-       <Heading as="h1" fontSize={{ base: "40px", md: "40px", lg: "56px"}} lineHeight={1.4} noOfLines={1} textShadow={"5px 5px 5px purple"}>
+       <Heading as="h1" fontSize={{ base: "28px", md: "40px", lg: "56px"}} lineHeight={1.4} noOfLines={1} textShadow={"5px 5px 5px purple"}>
          {bio2}
        </Heading>
      </VStack>
