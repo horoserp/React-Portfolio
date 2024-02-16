@@ -19,13 +19,13 @@ const projects = [
  {
    title: "Landscape Page",
    description:
-     "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+     "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
    imageSrc: "https://i.ibb.co/52wSwtj/Landscape.png",
  },
  {
    title: "Figma Designs",
    description:
-     "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+     "Various designs including style guides, problem statements, components, wireframes, user personas, journey maps and high-fidelity prototypes.",
    imageSrc: "https://i.ibb.co/zX8Wm78/Figma.png",
  },
 ];
