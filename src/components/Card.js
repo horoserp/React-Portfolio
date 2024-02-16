@@ -23,8 +23,8 @@ const Card = ({ title, description, imageSrc, url }) => {
           {description}
         </Text>
         <HStack spacing={2} alignItems="center">
-          <p>See more</p>
-          <a href={url} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faArrowRight} size="1x" /></a>
+          {/* <p>See more</p> */}
+          <a href={url} target="_blank" rel="noopener noreferrer">See More <FontAwesomeIcon icon={faArrowRight} size="1x" /></a>
         </HStack>
       </VStack>
     </VStack>
