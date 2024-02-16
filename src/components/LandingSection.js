@@ -1,9 +1,6 @@
 import React from "react";
 import { Avatar, Heading, VStack, Box } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
-// Use for VS Code Development Server
-import headshot from './images/Headshot.png';
-import backGround from './images/Home-BG-Photo.jpg'
 
 const greeting = "Hello, I am Robert!";
 const bio1 = "A frontend developer";
@@ -14,7 +11,7 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    backgroundImage={backGround}
+    backgroundImage="https://i.ibb.co/gVfXXcL/Home-BG-Photo.jpg"
     backgroundSize="cover"
     width="100vw"
     maxWidth="100%"
@@ -23,7 +20,7 @@ const LandingSection = () => (
     <VStack spacing={16}>
      <VStack spacing={4} alignItems="center">
         <Avatar
-         src={headshot}
+         src="https://i.ibb.co/z8FXYDX/Headshot.png"
          size="2xl"
          name="Robert Horosewski"
          minH={150}
