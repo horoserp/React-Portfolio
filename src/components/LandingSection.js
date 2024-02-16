@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Heading, VStack, Box } from "@chakra-ui/react";
+import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello, I am Robert!";
