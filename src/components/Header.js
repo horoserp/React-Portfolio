@@ -26,10 +26,10 @@ const socials = [
     icon: faStackOverflow,
     url: "https://stackoverflow.com/users/12617284/horoserp",
   },
-  {
-    icon: faMedium,
-    url: "https://medium.com/@horoserp",
-  },
+  // {
+  //   icon: faMedium,
+  //   url: "https://medium.com/@horoserp",
+  // },
 ];
 
 /**
