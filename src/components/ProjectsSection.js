@@ -14,7 +14,7 @@ const projects = [
  {
    title: "Reservation Page",
    description:
-     "React built, responsive site illustrating skills including implementing forms with validation (custom JavaScript, Formik and Yup), hooks, JSX, the map function, as well as props and children.",
+     "React-built, responsive site illustrating skills including implementing forms with validation (custom JavaScript, Formik and Yup), hooks, JSX, the map function, as well as props and children.",
    imageSrc: "https://i.ibb.co/4jbLdPY/Reservations.png",
    url: "https://horoserp.github.io/Capstone",
  },
