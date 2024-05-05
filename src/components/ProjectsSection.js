@@ -19,6 +19,13 @@ const projects = [
    url: "https://horoserp.github.io/Capstone",
  },
  {
+   title: "Bootstrap 5 Tutorial",
+   description:
+     "This page is build using Bootstrap 5, and demonstrates the information I acquired while becoming a Certified Bootstrap 5 Developer. It illustrates multiple components and how to code them, as well as listing definitions and other key information.",
+   imageSrc: "https://i.ibb.co/xfTm8N3/Containers.jpg",
+   url: "https://horoserp.github.io/bootstrap/containers.html",
+ },
+ {
    title: "Landscape Page",
    description:
      "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
