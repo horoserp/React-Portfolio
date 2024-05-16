@@ -1,6 +1,7 @@
 {
   "//": "homepage: https://horoserp.github.io/React-Portfolio#top",
   "name": "react-portfolio",
+  "homepage": "https://horoserp.github.io/React-Portfolio#top",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
