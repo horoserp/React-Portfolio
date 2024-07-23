@@ -21,7 +21,7 @@ const projects = [
  {
    title: "Bootstrap 5 Tutorial",
    description:
-     "This page is built using Bootstrap 5, and demonstrates the information I acquired while becoming a Certified Bootstrap 5 Developer. It illustrates multiple components and how to code them, as well as listing definitions and other key information.",
+     "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I built this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
    imageSrc: "https://i.ibb.co/xfTm8N3/Containers.jpg",
    url: "https://horoserp.github.io/bootstrap/containers.html",
  },
