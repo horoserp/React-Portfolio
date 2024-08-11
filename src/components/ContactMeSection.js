@@ -69,7 +69,17 @@ const ContactMeSection = () => {
         <Heading as="h1">
           Contact me
         </Heading>
-        <Flex alignItems="center" justify="center" p={12} rounded="md" w="100%">
+        <Heading
+          as="h3"
+          size="sm"
+          color="lightblue"
+          pt={6}
+        >
+          *This contact form is an example of instant validation using the Formik and Yup libraries.
+          The response you recieve after submission is a random response from a emulated server and
+          has a 50% change to succeed and a 50% chance to reply with an error.
+        </Heading>
+        <Flex alignItems="center" justify="center" p={8} rounded="md" w="100%">
           <form onSubmit= {formik.handleSubmit}>
             <VStack spacing={10}>
               <FormControl isInvalid={formik.touched.firstName && formik.errors.firstName}>
