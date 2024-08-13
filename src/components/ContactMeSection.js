@@ -76,7 +76,7 @@ const ContactMeSection = () => {
           pt={6}
         >
           *This contact form is an example of instant validation using the Formik and Yup libraries.
-          The response you recieve after submission is a random response from a emulated server and
+          The response you recieve after submission is a random response from an emulated server and
           has a 50% change to succeed and a 50% chance to reply with an error.
         </Heading>
         <Flex alignItems="center" justify="center" p={8} rounded="md" w="100%">
