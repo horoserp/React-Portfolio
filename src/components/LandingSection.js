@@ -11,7 +11,8 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    backgroundImage="https://i.ibb.co/gVfXXcL/Home-BG-Photo.jpg"
+    // backgroundImage="https://i.ibb.co/gVfXXcL/Home-BG-Photo.jpg"
+    backgroundImage="/React-Portfolio/Home-BG-Photo.jpg"
     backgroundSize="cover"
     width="100vw"
     maxWidth="100%"
@@ -20,7 +21,8 @@ const LandingSection = () => (
     <VStack spacing={16}>
      <VStack spacing={4} alignItems="center">
         <Avatar
-         src="https://i.ibb.co/z8FXYDX/Headshot.png"
+        //  src="https://i.ibb.co/z8FXYDX/Headshot.png"
+         src="/React-Portfolio/Headshot.png"
          size="2xl"
          name="Robert Horosewski"
          minH={150}

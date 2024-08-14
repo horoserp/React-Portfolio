@@ -16,28 +16,32 @@ const projects = [
    title: "Reservation Page",
    description:
      "React-built, responsive site illustrating skills including implementing forms with validation (custom JavaScript, Formik and Yup), hooks, JSX, the map function, as well as props and children.",
-   imageSrc: "https://i.ibb.co/4jbLdPY/Reservations.png",
+  //  imageSrc: "https://i.ibb.co/4jbLdPY/Reservations.png",
+   imageSrc: "/React-Portfolio/Reservations.png",
    url: "https://horoserp.github.io/Capstone",
  },
  {
    title: "Bootstrap 5 Tutorial",
    description:
      "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I built this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
-   imageSrc: "https://i.ibb.co/xfTm8N3/Containers.jpg",
+  //  imageSrc: "https://i.ibb.co/xfTm8N3/Containers.jpg",
+   imageSrc: "/React-Portfolio/Containers.jpg",
    url: "https://horoserp.github.io/bootstrap/containers.html",
  },
  {
    title: "Landscape Page",
    description:
      "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
-   imageSrc: "https://i.ibb.co/52wSwtj/Landscape.png",
+  //  imageSrc: "https://i.ibb.co/52wSwtj/Landscape.png",
+   imageSrc: "/React-Portfolio/Landscape.png",
    url: "https://horoserp.github.io/Lucky-Shrub/",
  },
  {
    title: "Figma Designs",
    description:
      "Various designs including style guides, problem statements, components, wireframes, user personas, journey maps and high-fidelity prototypes.",
-   imageSrc: "https://i.ibb.co/zX8Wm78/Figma.png",
+  //  imageSrc: "https://i.ibb.co/zX8Wm78/Figma.png",
+   imageSrc: "React-Portfolio/Figma.png",
    url: "https://www.figma.com/file/j00TSoQR2Q0GwXSEvkareQ/Reservations---From-Style-Guide-to-Prototype?type=design&mode=design&t=ZVCIhMwV8E1akEKb-1",
  },
 ];
