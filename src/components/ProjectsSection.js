@@ -41,7 +41,7 @@ const projects = [
    description:
      "Various designs including style guides, problem statements, components, wireframes, user personas, journey maps and high-fidelity prototypes.",
   //  imageSrc: "https://i.ibb.co/zX8Wm78/Figma.png",
-   imageSrc: "React-Portfolio/Figma.png",
+   imageSrc: "/React-Portfolio/Figma.png",
    url: "https://www.figma.com/file/j00TSoQR2Q0GwXSEvkareQ/Reservations---From-Style-Guide-to-Prototype?type=design&mode=design&t=ZVCIhMwV8E1akEKb-1",
  },
 ];
