@@ -9,8 +9,9 @@ const projects = [
    title: "My Resume",
    description:
      "This page demonstrates my ability to build a site with HTML5, making use of lists and a table. It utilizes CSS to implement blinking text and a scroll bar. I use jQuery to disable unwanted CSS while printing. ",
-   imageSrc: "https://i.ibb.co/MDkJKyF/Resume.png",
+  //  imageSrc: "https://i.ibb.co/MDkJKyF/Resume.png",
   //  imageSrc: ResumeImg,
+  imageSrc: "/Resume.png",
    url: "https://horoserp.github.io/Resume/",
  },
  {
