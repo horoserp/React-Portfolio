@@ -2,7 +2,6 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
-import ResumeImg from '../components/images/Resume.png';
 
 const projects = [
  {
@@ -10,8 +9,7 @@ const projects = [
    description:
      "This page demonstrates my ability to build a site with HTML5, making use of lists and a table. It utilizes CSS to implement blinking text and a scroll bar. I use jQuery to disable unwanted CSS while printing. ",
   //  imageSrc: "https://i.ibb.co/MDkJKyF/Resume.png",
-  //  imageSrc: ResumeImg,
-  imageSrc: "/Resume.png",
+   imageSrc: "/React-Portfolio/Resume.png",
    url: "https://horoserp.github.io/Resume/",
  },
  {
