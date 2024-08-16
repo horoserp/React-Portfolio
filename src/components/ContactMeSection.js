@@ -74,6 +74,7 @@ const ContactMeSection = () => {
           size="sm"
           color="lightblue"
           pt={6}
+          w="60vw"
         >
           *This contact form is an example of instant validation using the Formik and Yup libraries.
           The response you recieve after submission is a random response from an emulated server and
