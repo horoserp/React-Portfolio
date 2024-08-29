@@ -39,7 +39,7 @@ const projects = [
  {
    title: "Ponemah Crossing Dental, P.C. Page",
    description:
-      "I made numerous improvements to this company's website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
+      "I made numerous improvements to this company's WordPress website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
    imageSrc: "/React-Portfolio/ponemah.jpg",
    url: "https://ponemahdental.com",
  },
