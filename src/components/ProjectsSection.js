@@ -37,6 +37,13 @@ const projects = [
    url: "https://horoserp.github.io/Lucky-Shrub/",
  },
  {
+   title: "Ponemah Crossing Dental, P.C. Page",
+   description:
+      "I made numerous improvements to this company's website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
+   imageSrc: "/React-Portfolio/ponemah.jpg",
+   url: "https://ponemahdental.com",
+ },
+ {
    title: "Figma Designs",
    description:
      "Various designs including style guides, problem statements, components, wireframes, user personas, journey maps and high-fidelity prototypes.",
