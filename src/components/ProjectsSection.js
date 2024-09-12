@@ -58,7 +58,7 @@ const ProjectsSection = () => {
    <FullScreenSection
      backgroundColor="#14532d"
      isDarkBackground
-     p={8}
+     py={8}
      spacing={8}
      id="projects-section"
    >
