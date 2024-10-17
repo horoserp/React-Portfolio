@@ -8,7 +8,6 @@ const Card = ({ title, description, imageSrc, url, tags }) => {
     <VStack
       color="black"
       backgroundColor="white"
-      cursor="pointer"
       borderRadius="xl"
       m="50px 50px"
     >
@@ -37,7 +36,7 @@ const Card = ({ title, description, imageSrc, url, tags }) => {
               <span
                 key={index}
                 style={{
-                  background: "lightgreen",
+                  background: "#50CC66",
                   borderRadius: "10px",
                   padding: "2px 7px",
                 }}
