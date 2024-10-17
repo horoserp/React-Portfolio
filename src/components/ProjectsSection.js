@@ -11,6 +11,7 @@ const projects = [
     //  imageSrc: "https://i.ibb.co/MDkJKyF/Resume.png",
     imageSrc: "/React-Portfolio/Resume.png",
     url: "https://horoserp.github.io/Resume/",
+    tags: ["HTML5", "CSS"],
   },
   {
     title: "Reservation Page",
@@ -19,6 +20,7 @@ const projects = [
     //  imageSrc: "https://i.ibb.co/4jbLdPY/Reservations.png",
     imageSrc: "/React-Portfolio/Reservations.png",
     url: "https://horoserp.github.io/Capstone",
+    tags: ["React", "Hooks", "Forms"],
   },
   {
     title: "Travel Page",
@@ -26,6 +28,7 @@ const projects = [
       "React-built, responsive site demonstrating React and CSS skills. Includes implementation of video on landing page.",
     imageSrc: "/React-Portfolio/travel-snap.jpg",
     url: "https://horoserp.github.io/trvl-website",
+    tags: ["React", "CSS"],
   },
   {
     title: "Bootstrap 5 Tutorial",
@@ -34,6 +37,7 @@ const projects = [
     //  imageSrc: "https://i.ibb.co/xfTm8N3/Containers.jpg",
     imageSrc: "/React-Portfolio/Containers.jpg",
     url: "https://horoserp.github.io/bootstrap/containers.html",
+    tags: ["Bootstrap 5"],
   },
   {
     title: "Landscape Page",
@@ -42,6 +46,7 @@ const projects = [
     //  imageSrc: "https://i.ibb.co/52wSwtj/Landscape.png",
     imageSrc: "/React-Portfolio/Landscape.png",
     url: "https://horoserp.github.io/Lucky-Shrub/",
+    tags: ["HTML5", "CSS"],
   },
   {
     title: "Ponemah Crossing Dental, P.C. Page",
@@ -49,6 +54,7 @@ const projects = [
       "I made numerous improvements to this company's WordPress website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
     imageSrc: "/React-Portfolio/ponemah.jpg",
     url: "https://ponemahdental.com",
+    tags: ["Wordpress"],
   },
   {
     title: "Figma Designs",
@@ -57,6 +63,7 @@ const projects = [
     //  imageSrc: "https://i.ibb.co/zX8Wm78/Figma.png",
     imageSrc: "/React-Portfolio/Figma.png",
     url: "https://www.figma.com/file/j00TSoQR2Q0GwXSEvkareQ/Reservations---From-Style-Guide-to-Prototype?type=design&mode=design&t=ZVCIhMwV8E1akEKb-1",
+    tags: ["Figma"],
   },
 ];
 
@@ -85,6 +92,7 @@ const ProjectsSection = () => {
             description={project.description}
             imageSrc={project.imageSrc}
             url={project.url}
+            tags={project.tags}
           />
         ))}
       </Box>
