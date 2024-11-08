@@ -26,7 +26,7 @@ const Card = ({ title, description, imageSrc, url, tags }) => {
           alignItems="center"
           w={"100%"}
           justifyContent="space-between"
-          pr={10}
+          pr={[0, 0, 0, 0, 10]}
         >
           <a href={url} target="_blank" rel="noopener noreferrer">
             See More <FontAwesomeIcon icon={faArrowRight} size="1x" />
