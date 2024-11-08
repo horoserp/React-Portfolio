@@ -69,6 +69,30 @@ const projects = [
     url: "https://www.figma.com/file/j00TSoQR2Q0GwXSEvkareQ/Reservations---From-Style-Guide-to-Prototype?type=design&mode=design&t=ZVCIhMwV8E1akEKb-1",
     tags: ["Figma"],
   },
+  {
+    title: "Recipe Page",
+    description:
+      "This is a Frontend Mentor challenge that I completed using React. I was given a simple style guide containing screenshots and fonts and had to duplicate the page.",
+    imageSrc: "/React-Portfolio/recipe.jpg",
+    url: "https://horoserp.github.io/recipe",
+    tags: ["React", "Mentor"],
+  },
+  {
+    title: "Social Links Page",
+    description:
+      "This is another Frontend Mentor challenge that I completed using React. Again, I was given a minimal style guide and had to replicate the page.",
+    imageSrc: "/React-Portfolio/social-links.jpeg",
+    url: "https://horoserp.github.io/social-links",
+    tags: ["React", "Mentor"],
+  },
+  {
+    title: "Card Style Blog Page",
+    description:
+      "One of my favorite Frontend Mentor challenges so far. It replicates a blog post using a common card format, which I used a React component to render.",
+    imageSrc: "/React-Portfolio/blog-card.jpeg",
+    url: "https://horoserp.github.io/blog-card",
+    tags: ["React", "Mentor"],
+  },
 ];
 
 const ProjectsSection = () => {
@@ -116,6 +140,9 @@ const ProjectsSection = () => {
               </option>
               <option value="CSS" style={{ backgroundColor: "#50CC66" }}>
                 CSS
+              </option>
+              <option value="Mentor" style={{ backgroundColor: "#50CC66" }}>
+                Frontend Mentor
               </option>
               <option value="Hooks" style={{ backgroundColor: "#50CC66" }}>
                 Hooks
