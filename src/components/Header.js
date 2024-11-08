@@ -34,11 +34,11 @@ const socials = [
 ];
 
 /**
-* This component illustrates the use of both the useRef hook and useEffect hook.
-* The useRef hook is used to create a reference to a DOM element, in order to tweak the header styles and run a transition animation.
-* The useEffect hook is used to perform a subscription when the component is mounted and to unsubscribe when the component is unmounted.
-* Additionally, it showcases a neat implementation to smoothly navigate to different sections of the page when clicking on the header elements.
-*/
+ * This component illustrates the use of both the useRef hook and useEffect hook.
+ * The useRef hook is used to create a reference to a DOM element, in order to tweak the header styles and run a transition animation.
+ * The useEffect hook is used to perform a subscription when the component is mounted and to unsubscribe when the component is unmounted.
+ * Additionally, it showcases a neat implementation to smoothly navigate to different sections of the page when clicking on the header elements.
+ */
 
 const Header = () => {
   const headerRef = useRef(null);
@@ -58,12 +58,12 @@ const Header = () => {
         headerElement.style.transform = "translateY(-200px)";
       }
       prevScrollPos = currentScrollPos;
-    }
-    window.addEventListener('scroll', handleScroll)
+    };
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const handleClick = (anchor) => () => {
@@ -77,7 +77,7 @@ const Header = () => {
     }
   };
 
-  const [display, changeDisplay] = useState('none');
+  const [display, changeDisplay] = useState("none");
 
   return (
     <Box
@@ -91,14 +91,15 @@ const Header = () => {
       transitionTimingFunction="ease-in-out"
       backgroundColor="#18181b"
       ref={headerRef}
+      zIndex="1000"
     >
       <Flex>
         <Flex
           position="fixed"
-          display={[ 'none', 'none', 'flex', 'flex' ]}
+          display={["none", "none", "flex", "flex"]}
           align="center"
           justifyContent="center"
-          direction={[ 'column', 'row', 'row', 'row']}
+          direction={["column", "row", "row", "row"]}
           color="white"
           backgroundColor="#18181b"
           width="100%"
@@ -107,52 +108,51 @@ const Header = () => {
           <Flex
             ml={"10%"}
             display="flex"
-            direction={[ 'column', 'row', 'row', 'row' ]}
+            direction={["column", "row", "row", "row"]}
             alignItems="center"
             gap={16}
           >
             {socials.map(({ icon, url }) => (
-              <a
-                key={url}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a key={url} href={url} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={icon} size="2x" key={url} />
               </a>
             ))}
           </Flex>
-          <Spacer/>
+          <Spacer />
           <Flex
             mr={"10%"}
             display="flex"
             gap={16}
-            direction={[ 'column', 'row', 'row', 'row' ]}
+            direction={["column", "row", "row", "row"]}
             alignItems="center"
           >
-            <a href="#top" onClick={handleClick('top')}>Home</a>
-            <a href="#projects" onClick={handleClick('projects')}>Projects</a>
-            <a href="#contactme" onClick={handleClick('contactme')}>Contact Me</a>
+            <a href="#top" onClick={handleClick("top")}>
+              Home
+            </a>
+            <a href="#projects" onClick={handleClick("projects")}>
+              Projects
+            </a>
+            <a href="#contactme" onClick={handleClick("contactme")}>
+              Contact Me
+            </a>
           </Flex>
         </Flex>
         {/* Moblie */}
         <IconButton
           size="lg"
           // ml={100}
-          icon={<HamburgerIcon/>}
+          icon={<HamburgerIcon />}
           onClick={() => changeDisplay("flex")}
-          display={[ 'flex', 'flex', 'none', 'none' ]}
+          display={["flex", "flex", "none", "none"]}
           colorScheme="black"
         />
         {/* Moblie Content */}
-        <Flex
-          display={display}
-        >
+        <Flex display={display}>
           <Flex>
             <IconButton
               size="lg"
-              icon={<CloseIcon/>}
-              onClick={() => changeDisplay('none')}
+              icon={<CloseIcon />}
+              onClick={() => changeDisplay("none")}
               colorScheme="black"
             />
           </Flex>
@@ -165,9 +165,15 @@ const Header = () => {
             alignItems="center"
             color="white"
           >
-            <a href="#top" onClick={handleClick('top')}>Home</a>
-            <a href="#projects" onClick={handleClick('projects')}>Projects</a>
-            <a href="#contactme" onClick={handleClick('contactme')}>Contact Me</a>
+            <a href="#top" onClick={handleClick("top")}>
+              Home
+            </a>
+            <a href="#projects" onClick={handleClick("projects")}>
+              Projects
+            </a>
+            <a href="#contactme" onClick={handleClick("contactme")}>
+              Contact Me
+            </a>
           </Flex>
           <Flex
             display="flex"
@@ -180,12 +186,7 @@ const Header = () => {
             color="white"
           >
             {socials.map(({ icon, url }) => (
-              <a
-                key={url}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a key={url} href={url} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={icon} size="2x" key={url} />
               </a>
             ))}
