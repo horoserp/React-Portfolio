@@ -95,8 +95,59 @@ const projects = [
   },
 ];
 
+const featuredProjects = [
+  {
+    title: "My Resume",
+    description:
+      "This page demonstrates my ability to build a site with HTML5, making use of lists and a table. It utilizes CSS to implement blinking text and a scroll bar. I use jQuery to disable unwanted CSS while printing. ",
+    imageSrc: "/React-Portfolio/Resume.png",
+    url: "https://horoserp.github.io/Resume/",
+    tags: ["HTML5", "CSS"],
+  },
+  {
+    title: "Reservation Page",
+    description:
+      "React-built, responsive site illustrating skills including implementing forms with validation (custom JavaScript, Formik and Yup), hooks, JSX, the map function, as well as props and children.",
+    imageSrc: "/React-Portfolio/Reservations.png",
+    url: "https://horoserp.github.io/Capstone",
+    tags: ["React", "Hooks", "Forms"],
+  },
+  {
+    title: "Travel Page",
+    description:
+      "React-built, responsive site demonstrating React and CSS skills. Includes implementation of video on landing page.",
+    imageSrc: "/React-Portfolio/travel-snap.jpg",
+    url: "https://horoserp.github.io/trvl-website",
+    tags: ["React", "CSS"],
+  },
+  {
+    title: "Recipe Page",
+    description:
+      "This is a Frontend Mentor challenge that I completed using React. I was given a simple style guide containing screenshots and fonts and had to duplicate the page.",
+    imageSrc: "/React-Portfolio/recipe.jpg",
+    url: "https://horoserp.github.io/recipe",
+    tags: ["React", "Mentor"],
+  },
+  {
+    title: "Social Links Page",
+    description:
+      "This is another Frontend Mentor challenge that I completed using React. Again, I was given a minimal style guide and had to replicate the page.",
+    imageSrc: "/React-Portfolio/social-links.jpeg",
+    url: "https://horoserp.github.io/social-links",
+    tags: ["React", "Mentor"],
+  },
+  {
+    title: "Card Style Blog Page",
+    description:
+      "One of my favorite Frontend Mentor challenges so far. It replicates a blog post using a common card format, which I used a React component to render.",
+    imageSrc: "/React-Portfolio/blog-card.jpeg",
+    url: "https://horoserp.github.io/blog-card",
+    tags: ["React", "Mentor"],
+  },
+];
+
 const ProjectsSection = () => {
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [filteredProjects, setFilteredProjects] = useState(featuredProjects);
 
   const myForm = useFormik({
     initialValues: {
@@ -107,7 +158,7 @@ const ProjectsSection = () => {
         ? setFilteredProjects(
             projects.filter((project) => project.tags.includes(values.tag))
           )
-        : setFilteredProjects(projects);
+        : setFilteredProjects(featuredProjects);
     },
   });
 
