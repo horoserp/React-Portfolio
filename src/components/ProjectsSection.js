@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import FullScreenSection from "./FullScreenSection";
-import { Box, Heading } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  FormLabel,
+  Heading,
+  HStack,
+  Select,
+  VStack,
+} from "@chakra-ui/react";
 import Card from "./Card";
+import { useFormik } from "formik";
 
 const projects = [
   {
     title: "My Resume",
     description:
       "This page demonstrates my ability to build a site with HTML5, making use of lists and a table. It utilizes CSS to implement blinking text and a scroll bar. I use jQuery to disable unwanted CSS while printing. ",
-    //  imageSrc: "https://i.ibb.co/MDkJKyF/Resume.png",
     imageSrc: "/React-Portfolio/Resume.png",
     url: "https://horoserp.github.io/Resume/",
     tags: ["HTML5", "CSS"],
@@ -17,7 +25,6 @@ const projects = [
     title: "Reservation Page",
     description:
       "React-built, responsive site illustrating skills including implementing forms with validation (custom JavaScript, Formik and Yup), hooks, JSX, the map function, as well as props and children.",
-    //  imageSrc: "https://i.ibb.co/4jbLdPY/Reservations.png",
     imageSrc: "/React-Portfolio/Reservations.png",
     url: "https://horoserp.github.io/Capstone",
     tags: ["React", "Hooks", "Forms"],
@@ -34,7 +41,6 @@ const projects = [
     title: "Bootstrap 5 Tutorial",
     description:
       "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I built this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
-    //  imageSrc: "https://i.ibb.co/xfTm8N3/Containers.jpg",
     imageSrc: "/React-Portfolio/Containers.jpg",
     url: "https://horoserp.github.io/bootstrap/containers.html",
     tags: ["Bootstrap 5"],
@@ -43,7 +49,6 @@ const projects = [
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
-    //  imageSrc: "https://i.ibb.co/52wSwtj/Landscape.png",
     imageSrc: "/React-Portfolio/Landscape.png",
     url: "https://horoserp.github.io/Lucky-Shrub/",
     tags: ["HTML5", "CSS"],
@@ -60,7 +65,6 @@ const projects = [
     title: "Figma Designs",
     description:
       "Various designs including style guides, problem statements, components, wireframes, user personas, journey maps and high-fidelity prototypes.",
-    //  imageSrc: "https://i.ibb.co/zX8Wm78/Figma.png",
     imageSrc: "/React-Portfolio/Figma.png",
     url: "https://www.figma.com/file/j00TSoQR2Q0GwXSEvkareQ/Reservations---From-Style-Guide-to-Prototype?type=design&mode=design&t=ZVCIhMwV8E1akEKb-1",
     tags: ["Figma"],
@@ -68,6 +72,21 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
+  const [filteredProjects, setFilteredProjects] = useState(projects);
+
+  const myForm = useFormik({
+    initialValues: {
+      tag: "Featured",
+    },
+    onSubmit: (values) => {
+      values.tag != "Featured"
+        ? setFilteredProjects(
+            projects.filter((project) => project.tags.includes(values.tag))
+          )
+        : setFilteredProjects(projects);
+    },
+  });
+
   return (
     <FullScreenSection
       backgroundColor="#14532d"
@@ -79,13 +98,55 @@ const ProjectsSection = () => {
       <Heading as="h1" p={12}>
         Featured Projects
       </Heading>
+      <form onSubmit={myForm.handleSubmit} style={{ marginTop: "0" }}>
+        <HStack>
+          <VStack>
+            <FormLabel htmlFor="tag" style={{ marginBottom: "0" }}>
+              Sort Projects By:
+            </FormLabel>
+            <Select id="tag" name="tag" {...myForm.getFieldProps("tag")}>
+              <option value="Featured" style={{ backgroundColor: "#50CC66" }}>
+                Featured
+              </option>
+              <option value="React" style={{ backgroundColor: "#50CC66" }}>
+                React
+              </option>
+              <option value="HTML5" style={{ backgroundColor: "#50CC66" }}>
+                HTML5
+              </option>
+              <option value="CSS" style={{ backgroundColor: "#50CC66" }}>
+                CSS
+              </option>
+              <option value="Hooks" style={{ backgroundColor: "#50CC66" }}>
+                Hooks
+              </option>
+              <option value="Forms" style={{ backgroundColor: "#50CC66" }}>
+                Forms
+              </option>
+              <option value="Wordpress" style={{ backgroundColor: "#50CC66" }}>
+                Wordpress
+              </option>
+              <option value="Figma" style={{ backgroundColor: "#50CC66" }}>
+                Figma
+              </option>
+            </Select>
+          </VStack>
+          <Button
+            type="submit"
+            background="#50CC66"
+            style={{ marginTop: "32px", marginLeft: "25px" }}
+          >
+            Submit
+          </Button>
+        </HStack>
+      </form>
       <Box
         display="grid"
         gridTemplateColumns="repeat(2,minmax(0,1fr))"
         w="70vw"
         id="grid"
       >
-        {projects.map((project) => (
+        {filteredProjects.map((project) => (
           <Card
             key={project.title}
             title={project.title}
