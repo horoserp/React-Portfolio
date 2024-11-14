@@ -46,14 +46,6 @@ const projects = [
     tags: ["Bootstrap 5"],
   },
   {
-    title: "Landscape Page",
-    description:
-      "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
-    imageSrc: "/React-Portfolio/Landscape.png",
-    url: "https://horoserp.github.io/Lucky-Shrub/",
-    tags: ["HTML5", "CSS"],
-  },
-  {
     title: "Ponemah Crossing Dental, P.C. Page",
     description:
       "I made numerous improvements to this company's WordPress website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
@@ -100,6 +92,14 @@ const projects = [
     imageSrc: "/React-Portfolio/faq-accordion.jpeg",
     url: "https://horoserp.github.io/faq-accordion",
     tags: ["HTML5", "CSS", "Mentor"],
+  },
+  {
+    title: "Landscape Page",
+    description:
+      "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
+    imageSrc: "/React-Portfolio/Landscape.png",
+    url: "https://horoserp.github.io/Lucky-Shrub/",
+    tags: ["HTML5", "CSS"],
   },
 ];
 
