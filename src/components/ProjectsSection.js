@@ -93,6 +93,14 @@ const projects = [
     url: "https://horoserp.github.io/blog-card",
     tags: ["React", "Mentor"],
   },
+  {
+    title: "FAQs Accordion Page",
+    description:
+      "During this challenge, I went back to the basics: HTML5, CSS and pure JavaScript. Coding the accordion to open and close was a fun challenge that I handled deftly.",
+    imageSrc: "/React-Portfolio/faq-accordion.jpeg",
+    url: "https://horoserp.github.io/faq-accordion",
+    tags: ["HTML5", "CSS", "Mentor"],
+  },
 ];
 
 const featuredProjects = [
