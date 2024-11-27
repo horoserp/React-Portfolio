@@ -94,6 +94,14 @@ const projects = [
     tags: ["HTML5", "CSS", "Mentor"],
   },
   {
+    title: "Results Summary Page",
+    description:
+      "This was a fun challenge that gave me an opportunity to practice my JavaScript skills and learn more about lessor used CSS properties.",
+    imageSrc: "/React-Portfolio/results-summary.jpeg",
+    url: "https://horoserp.github.io/results-summary",
+    tags: ["HTML5", "CSS", "Mentor"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -129,28 +137,28 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
-    title: "Recipe Page",
-    description:
-      "This is a Frontend Mentor challenge that I completed using React. I was given a simple style guide containing screenshots and fonts and had to duplicate the page.",
-    imageSrc: "/React-Portfolio/recipe.jpg",
-    url: "https://horoserp.github.io/recipe",
-    tags: ["React", "Mentor"],
-  },
-  {
-    title: "Social Links Page",
-    description:
-      "This is another Frontend Mentor challenge that I completed using React. Again, I was given a minimal style guide and had to replicate the page.",
-    imageSrc: "/React-Portfolio/social-links.jpeg",
-    url: "https://horoserp.github.io/social-links",
-    tags: ["React", "Mentor"],
-  },
-  {
     title: "Card Style Blog Page",
     description:
       "One of my favorite Frontend Mentor challenges so far. It replicates a blog post using a common card format, which I used a React component to render.",
     imageSrc: "/React-Portfolio/blog-card.jpeg",
     url: "https://horoserp.github.io/blog-card",
     tags: ["React", "Mentor"],
+  },
+  {
+    title: "FAQs Accordion Page",
+    description:
+      "During this challenge, I went back to the basics: HTML5, CSS and pure JavaScript. Coding the accordion to open and close was a fun challenge that I handled deftly.",
+    imageSrc: "/React-Portfolio/faq-accordion.jpeg",
+    url: "https://horoserp.github.io/faq-accordion",
+    tags: ["HTML5", "CSS", "Mentor"],
+  },
+  {
+    title: "Results Summary Page",
+    description:
+      "This was a fun challenge that gave me an opportunity to practice my JavaScript skills and learn more about lessor used CSS properties.",
+    imageSrc: "/React-Portfolio/results-summary.jpeg",
+    url: "https://horoserp.github.io/results-summary",
+    tags: ["HTML5", "CSS", "Mentor"],
   },
 ];
 
