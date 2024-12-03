@@ -38,14 +38,6 @@ const projects = [
     tags: ["React", "CSS"],
   },
   {
-    title: "Bootstrap 5 Tutorial",
-    description:
-      "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I built this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
-    imageSrc: "/React-Portfolio/Containers.jpg",
-    url: "https://horoserp.github.io/bootstrap/containers.html",
-    tags: ["Bootstrap 5"],
-  },
-  {
     title: "Ponemah Crossing Dental, P.C. Page",
     description:
       "I made numerous improvements to this company's WordPress website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
@@ -102,12 +94,28 @@ const projects = [
     tags: ["HTML5", "CSS", "Mentor"],
   },
   {
+    title: "Product Preview Card",
+    description:
+      "This is a Frontend Mentor challenge built using Bootstrap 5. I was able to integrate new knowledge in the form of the :where() Pseudo-Selector and overriding Bootstraps default color themes.",
+    imageSrc: "/React-Portfolio/product-preview-card.jpeg",
+    url: "https://horoserp.github.io/product-card",
+    tags: ["Bootstrap 5"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
     imageSrc: "/React-Portfolio/Landscape.png",
     url: "https://horoserp.github.io/Lucky-Shrub/",
-    tags: ["HTML5", "CSS"],
+    tags: ["Bootstrap 5", "CSS"],
+  },
+  {
+    title: "Bootstrap 5 Tutorial",
+    description:
+      "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I built this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
+    imageSrc: "/React-Portfolio/Containers.jpg",
+    url: "https://horoserp.github.io/bootstrap/containers.html",
+    tags: ["Bootstrap 5"],
   },
 ];
 
