@@ -99,7 +99,7 @@ const projects = [
       "This is a Frontend Mentor challenge built using Bootstrap 5. I was able to integrate new knowledge in the form of the :where() Pseudo-Selector and overriding Bootstraps default color themes.",
     imageSrc: "/React-Portfolio/product-preview-card.jpeg",
     url: "https://horoserp.github.io/product-card",
-    tags: ["Bootstrap 5"],
+    tags: ["Bootstrap 5", "Mentor"],
   },
   {
     title: "Landscape Page",
@@ -219,11 +219,11 @@ const ProjectsSection = () => {
               <option value="Mentor" style={{ backgroundColor: "#50CC66" }}>
                 Frontend Mentor
               </option>
-              <option value="Hooks" style={{ backgroundColor: "#50CC66" }}>
-                Hooks
-              </option>
-              <option value="Forms" style={{ backgroundColor: "#50CC66" }}>
-                Forms
+              <option
+                value="Bootstrap 5"
+                style={{ backgroundColor: "#50CC66" }}
+              >
+                Bootstrap 5
               </option>
               <option value="Wordpress" style={{ backgroundColor: "#50CC66" }}>
                 Wordpress
