@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Ponemah Crossing Dental, P.C. Page",
     description:
-      "I made numerous improvements to this company's WordPress website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
+      "I made numerous improvements to this company's WordPress/Divi website including adding an employee slider that could be updated directly from the practice management software, adding FAQS and COVID-19 pages, and updating the News and Contact pages regularly.",
     imageSrc: "/React-Portfolio/ponemah.jpg",
     url: "https://ponemahdental.com",
     tags: ["Wordpress"],
@@ -252,8 +252,8 @@ const ProjectsSection = () => {
       </form>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
-        w="70vw"
+        gridTemplateColumns="repeat(3,minmax(0,1fr))"
+        w="85vw"
         id="grid"
       >
         {filteredProjects.map((project) => (
