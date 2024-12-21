@@ -56,7 +56,7 @@ const projects = [
   {
     title: "Figma Design - QR Component",
     description:
-      "Design files used for create of the QR Component page, including style guide and main page for both mobile and desktop.",
+      "Design files used for the creation of the QR Component page, including style guide and main page designs for both mobile and desktop versions.",
     imageSrc: "/React-Portfolio/Figma-QR-Code.jpeg",
     url: "https://www.figma.com/design/lPBmw322pLrhUVi3pA3NkA/qr-code-component?node-id=2-2&p=f&t=5iC7KL52pDm0h6QQ-0",
     tags: ["Figma"],
