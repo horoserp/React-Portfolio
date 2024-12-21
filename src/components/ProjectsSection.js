@@ -105,7 +105,7 @@ const projects = [
     title: "Product Preview Card",
     description:
       "This is a Frontend Mentor challenge built using Bootstrap 5. I was able to integrate new knowledge in the form of the :where() Pseudo-Selector and overriding Bootstraps default color themes.",
-    imageSrc: "/React-Portfolio/product-preview-card.jpeg",
+    imageSrc: "/React-Portfolio/product-preview-card.jpg",
     url: "https://horoserp.github.io/product-card",
     tags: ["Bootstrap 5", "Mentor"],
   },
