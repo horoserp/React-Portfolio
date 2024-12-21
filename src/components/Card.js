@@ -16,7 +16,7 @@ const Card = ({ title, description, imageSrc, url, tags }) => {
         <Heading as="h3" size="md" py={3}>
           {title}
         </Heading>
-        <Text color="#64748b" fontSize="lg">
+        <Text color="#64748b" fontSize="lg" flexBasis="200px" pt={4}>
           {description}
         </Text>
         <HStack
