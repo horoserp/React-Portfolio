@@ -46,11 +46,19 @@ const projects = [
     tags: ["Wordpress"],
   },
   {
-    title: "Figma Designs",
+    title: "Figma Design - Reservation Page",
     description:
       "Various designs including style guides, problem statements, components, wireframes, user personas, journey maps and high-fidelity prototypes.",
     imageSrc: "/React-Portfolio/Figma.png",
     url: "https://www.figma.com/file/j00TSoQR2Q0GwXSEvkareQ/Reservations---From-Style-Guide-to-Prototype?type=design&mode=design&t=ZVCIhMwV8E1akEKb-1",
+    tags: ["Figma"],
+  },
+  {
+    title: "Figma Design - QR Component",
+    description:
+      "Design files used for create of the QR Component page, including style guide and main page for both mobile and desktop.",
+    imageSrc: "/React-Portfolio/Figma-QR-Code.jpeg",
+    url: "https://www.figma.com/design/lPBmw322pLrhUVi3pA3NkA/qr-code-component?node-id=2-2&p=f&t=5iC7KL52pDm0h6QQ-0",
     tags: ["Figma"],
   },
   {
