@@ -110,6 +110,14 @@ const projects = [
     tags: ["JavaScript", "Mentor"],
   },
   {
+    title: "QR Code Component",
+    description:
+      "I build this Frontend Mentor challege with React and CSS. I was able to utilize Figma files to precisely create the vision of the designer.",
+    imageSrc: "/React-Portfolio/qr-code.jpeg",
+    url: "https://horoserp.github.io/qr-code",
+    tags: ["React", "CSS", "Mentor"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -153,6 +161,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "QR Code Component",
+    description:
+      "I build this Frontend Mentor challege with React and CSS. I was able to utilize Figma files to precisely create the vision of the designer.",
+    imageSrc: "/React-Portfolio/qr-code.jpeg",
+    url: "https://horoserp.github.io/qr-code",
+    tags: ["React", "CSS", "Mentor"],
+  },
+  {
     title: "Interactive Rating Component",
     description:
       "This is a Frontend Mentor challenge built using HTML, CSS and JavaScript. It utilizes @media (hover:hover) to only show hover states on devices that support it. The 'Thank You' page integrates the rating from the home page.",
@@ -166,14 +182,6 @@ const featuredProjects = [
       "This was a fun challenge that gave me an opportunity to practice my JavaScript and CSS skills. I was able to apply a 'border' only on the corners of the summary categories using CSS.",
     imageSrc: "/React-Portfolio/results-summary.jpeg",
     url: "https://horoserp.github.io/results-summary",
-    tags: ["HTML5", "CSS", "Mentor"],
-  },
-  {
-    title: "FAQs Accordion Page",
-    description:
-      "During this challenge, I went back to the basics: HTML5, CSS and pure JavaScript. Coding the accordion to open and close was a fun challenge that I handled deftly.",
-    imageSrc: "/React-Portfolio/faq-accordion.jpeg",
-    url: "https://horoserp.github.io/faq-accordion",
     tags: ["HTML5", "CSS", "Mentor"],
   },
 ];
