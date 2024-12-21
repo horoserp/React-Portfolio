@@ -121,7 +121,7 @@ const projects = [
     title: "QR Code Component",
     description:
       "I build this Frontend Mentor challege with React and CSS. I was able to utilize Figma files to precisely create the vision of the designer.",
-    imageSrc: "/React-Portfolio/qr-code.jpeg",
+    imageSrc: "/React-Portfolio/qr-code.jpg",
     url: "https://horoserp.github.io/qr-code",
     tags: ["React", "CSS", "Mentor"],
   },
@@ -172,7 +172,7 @@ const featuredProjects = [
     title: "QR Code Component",
     description:
       "I build this Frontend Mentor challege with React and CSS. I was able to utilize Figma files to precisely create the vision of the designer.",
-    imageSrc: "/React-Portfolio/qr-code.jpeg",
+    imageSrc: "/React-Portfolio/qr-code.jpg",
     url: "https://horoserp.github.io/qr-code",
     tags: ["React", "CSS", "Mentor"],
   },
