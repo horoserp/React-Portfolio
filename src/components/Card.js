@@ -12,12 +12,10 @@ const Card = ({ title, description, imageSrc, url, tags }) => {
       m="50px 50px"
     >
       <Image borderRadius="xl" src={imageSrc} alt={title} />
-      <VStack spacing={4} p={4} alignItems="flex-start">
-        <HStack justifyContent="space-between" alignItems="center">
-          <Heading as="h3" size="md">
-            {title}
-          </Heading>
-        </HStack>
+      <VStack spacing={4} p={4}>
+        <Heading as="h3" size="md" py={3}>
+          {title}
+        </Heading>
         <Text color="#64748b" fontSize="lg">
           {description}
         </Text>

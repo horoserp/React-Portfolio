@@ -113,7 +113,7 @@ const projects = [
     title: "Interactive Rating Component",
     description:
       "This is a Frontend Mentor challenge built using HTML, CSS and JavaScript. It utilizes @media (hover:hover) to only show hover states on devices that support it. The 'Thank You' page integrates the rating from the home page.",
-    imageSrc: "/React-Portfolio/rating-component-desktop.jpeg",
+    imageSrc: "/React-Portfolio/rating-component.jpg",
     url: "https://horoserp.github.io/rating-component",
     tags: ["JavaScript", "Mentor"],
   },
@@ -180,7 +180,7 @@ const featuredProjects = [
     title: "Interactive Rating Component",
     description:
       "This is a Frontend Mentor challenge built using HTML, CSS and JavaScript. It utilizes @media (hover:hover) to only show hover states on devices that support it. The 'Thank You' page integrates the rating from the home page.",
-    imageSrc: "/React-Portfolio/rating-component-desktop.jpeg",
+    imageSrc: "/React-Portfolio/rating-component.jpg",
     url: "https://horoserp.github.io/rating-component",
     tags: ["JavaScript", "Mentor"],
   },
