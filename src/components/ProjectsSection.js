@@ -126,6 +126,14 @@ const projects = [
     tags: ["React", "CSS", "Mentor"],
   },
   {
+    title: "NFT Preview Card",
+    description:
+      "This project showcases my ability to use CSS to create unique overlays by utilizing hidden containers and active states.",
+    imageSrc: "/React-Portfolio/nft-screenshot.jpg",
+    url: "https://horoserp.github.io/nft-preview-card",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -169,6 +177,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "NFT Preview Card",
+    description:
+      "This project showcases my ability to use CSS to create unique overlays by utilizing hidden containers and active states.",
+    imageSrc: "/React-Portfolio/nft-screenshot.jpg",
+    url: "https://horoserp.github.io/nft-preview-card",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "QR Code Component",
     description:
       "I build this Frontend Mentor challege with React and CSS. I was able to utilize Figma files to precisely create the vision of the designer.",
@@ -183,14 +199,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/rating-component.jpg",
     url: "https://horoserp.github.io/rating-component",
     tags: ["JavaScript", "Mentor"],
-  },
-  {
-    title: "Results Summary Page",
-    description:
-      "This was a fun challenge that gave me an opportunity to practice my JavaScript and CSS skills. I was able to apply a 'border' only on the corners of the summary categories using CSS.",
-    imageSrc: "/React-Portfolio/results-summary.jpeg",
-    url: "https://horoserp.github.io/results-summary",
-    tags: ["HTML5", "CSS", "Mentor"],
   },
 ];
 
