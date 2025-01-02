@@ -144,7 +144,7 @@ const projects = [
   {
     title: "Bootstrap 5 Tutorial",
     description:
-      "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I built this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
+      "This page is built using Bootstrap 5. As a certified Bootstrap 5 Developer, I made this page to demonstrate how to code multiple components in Bootstrap, as well as listing definitions and other key information.",
     imageSrc: "/React-Portfolio/Containers.jpg",
     url: "https://horoserp.github.io/bootstrap/containers.html",
     tags: ["Bootstrap 5"],
