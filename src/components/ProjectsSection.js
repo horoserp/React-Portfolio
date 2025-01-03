@@ -134,6 +134,14 @@ const projects = [
     tags: ["Mentor", "CSS"],
   },
   {
+    title: "Order Summary Card",
+    description:
+      "I was able to demonstrate my skills with box shadows and background images in this project. The mobile version makes use of @media(hover:hover) to prevent unexpected behavior.",
+    imageSrc: "/React-Portfolio/order-summary.jpg",
+    url: "https://horoserp.github.io/order-summary",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -177,6 +185,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Order Summary Card",
+    description:
+      "I was able to demonstrate my skills with box shadows and background images in this project. The mobile version makes use of @media(hover:hover) to prevent unexpected behavior.",
+    imageSrc: "/React-Portfolio/order-summary.jpg",
+    url: "https://horoserp.github.io/order-summary",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "NFT Preview Card",
     description:
       "This project showcases my ability to use CSS to create unique overlays by utilizing hidden containers and active states.",
@@ -191,14 +207,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/qr-code.jpg",
     url: "https://horoserp.github.io/qr-code",
     tags: ["React", "CSS", "Mentor"],
-  },
-  {
-    title: "Interactive Rating Component",
-    description:
-      "This is a Frontend Mentor challenge built using HTML, CSS and JavaScript. It utilizes @media (hover:hover) to only show hover states on devices that support it. The 'Thank You' page integrates the rating from the home page.",
-    imageSrc: "/React-Portfolio/rating-component.jpg",
-    url: "https://horoserp.github.io/rating-component",
-    tags: ["JavaScript", "Mentor"],
   },
 ];
 
