@@ -142,6 +142,14 @@ const projects = [
     tags: ["Mentor", "CSS"],
   },
   {
+    title: "Stats Preview Card",
+    description:
+      "This challenge gave me the opportunity to show off the HTML5 picture tag. Additionally, I was able to encorporate the CSS 'flex-direction: column-reverse' property:value pair.",
+    imageSrc: "/React-Portfolio/stats-preview-screenshot.jpg",
+    url: "https://horoserp.github.io/stats-preview",
+    tags: ["Mentor", "HTML"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -185,6 +193,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Stats Preview Card",
+    description:
+      "This challenge gave me the opportunity to show off the HTML5 picture tag. Additionally, I was able to encorporate the CSS 'flex-direction: column-reverse' property:value pair.",
+    imageSrc: "/React-Portfolio/stats-preview-screenshot.jpg",
+    url: "https://horoserp.github.io/stats-preview",
+    tags: ["Mentor", "HTML"],
+  },
+  {
     title: "Order Summary Card",
     description:
       "I was able to demonstrate my skills with box shadows and background images in this project. The mobile version makes use of @media(hover:hover) to prevent unexpected behavior.",
@@ -199,14 +215,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/nft-screenshot.jpg",
     url: "https://horoserp.github.io/nft-preview-card",
     tags: ["Mentor", "CSS"],
-  },
-  {
-    title: "QR Code Component",
-    description:
-      "I built this Frontend Mentor challege with React and CSS. I was able to utilize Figma files to precisely create the vision of the designer.",
-    imageSrc: "/React-Portfolio/qr-code.jpg",
-    url: "https://horoserp.github.io/qr-code",
-    tags: ["React", "CSS", "Mentor"],
   },
 ];
 
