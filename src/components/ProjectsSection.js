@@ -147,7 +147,7 @@ const projects = [
       "This challenge gave me the opportunity to show off the HTML5 picture tag. Additionally, I was able to encorporate the CSS 'flex-direction: column-reverse' property:value pair.",
     imageSrc: "/React-Portfolio/stats-preview-screenshot.jpg",
     url: "https://horoserp.github.io/stats-preview",
-    tags: ["Mentor", "HTML"],
+    tags: ["Mentor", "HTML5"],
   },
   {
     title: "Landscape Page",
@@ -198,7 +198,7 @@ const featuredProjects = [
       "This challenge gave me the opportunity to show off the HTML5 picture tag. Additionally, I was able to encorporate the CSS 'flex-direction: column-reverse' property:value pair.",
     imageSrc: "/React-Portfolio/stats-preview-screenshot.jpg",
     url: "https://horoserp.github.io/stats-preview",
-    tags: ["Mentor", "HTML"],
+    tags: ["Mentor", "HTML5"],
   },
   {
     title: "Order Summary Card",
