@@ -150,6 +150,14 @@ const projects = [
     tags: ["Mentor", "HTML5"],
   },
   {
+    title: "3-Column Card",
+    description:
+      "I was able to demonstrate nice responsiveness through use of CSS Media Queries in this challenge. I also used CSS the :nth-child() pseudo-class successfully.",
+    imageSrc: "/React-Portfolio/3-column-card.jpg",
+    url: "https://horoserp.github.io/column-card",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -193,6 +201,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "3-Column Card",
+    description:
+      "I was able to demonstrate nice responsiveness through use of CSS Media Queries in this challenge. I also used CSS the :nth-child() pseudo-class successfully.",
+    imageSrc: "/React-Portfolio/3-column-card.jpg",
+    url: "https://horoserp.github.io/column-card",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Stats Preview Card",
     description:
       "This challenge gave me the opportunity to show off the HTML5 picture tag. Additionally, I was able to encorporate the CSS 'flex-direction: column-reverse' property:value pair.",
@@ -206,14 +222,6 @@ const featuredProjects = [
       "I was able to demonstrate my skills with box shadows and background images in this project. The mobile version makes use of @media(hover:hover) to prevent unexpected behavior.",
     imageSrc: "/React-Portfolio/order-summary.jpg",
     url: "https://horoserp.github.io/order-summary",
-    tags: ["Mentor", "CSS"],
-  },
-  {
-    title: "NFT Preview Card",
-    description:
-      "This project showcases my ability to use CSS to create unique overlays by utilizing hidden containers and active states.",
-    imageSrc: "/React-Portfolio/nft-screenshot.jpg",
-    url: "https://horoserp.github.io/nft-preview-card",
     tags: ["Mentor", "CSS"],
   },
 ];
