@@ -166,6 +166,14 @@ const projects = [
     tags: ["Mentor", "CSS"],
   },
   {
+    title: "Social Proof Card",
+    description:
+      "I used a combination of CSS Grid (as it is a 2-dimensional desing) and CSS Flexbox (to create the rating boxes and review cards). I focused on responsiveness for this project.",
+    imageSrc: "/React-Portfolio/social-proof.jpg",
+    url: "https://horoserp.github.io/social-proof",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -184,14 +192,14 @@ const projects = [
 ];
 
 const featuredProjects = [
-  {
-    title: "My Resume",
-    description:
-      "This page demonstrates my ability to build a site with HTML5, making use of lists and a table. It utilizes CSS to implement blinking text and a scroll bar. I use jQuery to disable unwanted CSS while printing. ",
-    imageSrc: "/React-Portfolio/Resume.png",
-    url: "https://horoserp.github.io/Resume/",
-    tags: ["HTML5", "CSS"],
-  },
+  // {
+  //   title: "My Resume",
+  //   description:
+  //     "This page demonstrates my ability to build a site with HTML5, making use of lists and a table. It utilizes CSS to implement blinking text and a scroll bar. I use jQuery to disable unwanted CSS while printing. ",
+  //   imageSrc: "/React-Portfolio/Resume.png",
+  //   url: "https://horoserp.github.io/Resume/",
+  //   tags: ["HTML5", "CSS"],
+  // },
   {
     title: "Reservation Page",
     description:
@@ -207,6 +215,14 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/travel-snap.jpg",
     url: "https://horoserp.github.io/trvl-website",
     tags: ["React", "CSS"],
+  },
+  {
+    title: "Social Proof Card",
+    description:
+      "I used a combination of CSS Grid (as it is a 2-dimensional desing) and CSS Flexbox (to create the rating boxes and review cards). I focused on responsiveness for this project.",
+    imageSrc: "/React-Portfolio/social-proof.jpg",
+    url: "https://horoserp.github.io/social-proof",
+    tags: ["Mentor", "CSS"],
   },
   {
     title: "Profile Card Component",
