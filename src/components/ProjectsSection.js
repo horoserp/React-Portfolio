@@ -307,6 +307,9 @@ const ProjectsSection = () => {
               <option value="Mentor" style={{ backgroundColor: "#50CC66" }}>
                 Frontend Mentor
               </option>
+              <option value="JavaScript" style={{ backgroundColor: "#50CC66" }}>
+                JavaScript
+              </option>
               <option
                 value="Bootstrap 5"
                 style={{ backgroundColor: "#50CC66" }}
