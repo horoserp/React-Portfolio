@@ -174,6 +174,14 @@ const projects = [
     tags: ["Mentor", "CSS"],
   },
   {
+    title: "Article Preview Component",
+    description:
+      "In this component, I make use of JavaScript to 'open' a hidden social links navbar when the user clicks a button. Careful use of the CSS position property allows me to control the location.",
+    imageSrc: "/React-Portfolio/article-preview.jpg",
+    url: "https://horoserp.github.io/article-preview",
+    tags: ["Mentor", "JavaScript"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -217,6 +225,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Article Preview Component",
+    description:
+      "In this component, I make use of JavaScript to 'open' a hidden social links navbar when the user clicks a button. Careful use of the CSS position property allows me to control the location.",
+    imageSrc: "/React-Portfolio/article-preview.jpg",
+    url: "https://horoserp.github.io/article-preview",
+    tags: ["Mentor", "JavaScript"],
+  },
+  {
     title: "Social Proof Card",
     description:
       "I used a combination of CSS Grid (as it is a 2-dimensional desing) and CSS Flexbox (to create the rating boxes and review cards). I focused on responsiveness for this project.",
@@ -239,14 +255,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/3-column-card.jpg",
     url: "https://horoserp.github.io/column-card",
     tags: ["Mentor", "CSS"],
-  },
-  {
-    title: "Stats Preview Card",
-    description:
-      "This challenge gave me the opportunity to show off the HTML5 picture tag. Additionally, I was able to encorporate the CSS 'flex-direction: column-reverse' property:value pair.",
-    imageSrc: "/React-Portfolio/stats-preview-screenshot.jpg",
-    url: "https://horoserp.github.io/stats-preview",
-    tags: ["Mentor", "HTML5"],
   },
 ];
 
