@@ -182,6 +182,14 @@ const projects = [
     tags: ["Mentor", "JavaScript"],
   },
   {
+    title: "Four Card Feature Section",
+    description:
+      "This project uses multiple flexbox displays to create a four card display in a diamond structure. It is responsive across all devices, showing the optimal display.",
+    imageSrc: "/React-Portfolio/four-card-section.jpg",
+    url: "https://horoserp.github.io/four-card-section",
+    tags: ["Mentor", "HTML5"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -225,6 +233,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Four Card Feature Section",
+    description:
+      "This project uses multiple flexbox displays to create a four card display in a diamond structure. It is responsive across all devices, showing the optimal display.",
+    imageSrc: "/React-Portfolio/four-card-section.jpg",
+    url: "https://horoserp.github.io/four-card-section",
+    tags: ["Mentor", "HTML5"],
+  },
+  {
     title: "Article Preview Component",
     description:
       "In this component, I make use of JavaScript to 'open' a hidden social links navbar when the user clicks a button. Careful use of the CSS position property allows me to control the location.",
@@ -246,14 +262,6 @@ const featuredProjects = [
       "In this project, I am able to demonstrate the use of two background images and how to use the CSS background-position property to separate them.",
     imageSrc: "/React-Portfolio/profile-card.jpg",
     url: "https://horoserp.github.io/profile-card",
-    tags: ["Mentor", "CSS"],
-  },
-  {
-    title: "3-Column Card",
-    description:
-      "I was able to demonstrate nice responsiveness through use of CSS Media Queries in this challenge. I also used CSS the :nth-child() pseudo-class successfully.",
-    imageSrc: "/React-Portfolio/3-column-card.jpg",
-    url: "https://horoserp.github.io/column-card",
     tags: ["Mentor", "CSS"],
   },
 ];
