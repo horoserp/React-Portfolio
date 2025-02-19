@@ -246,7 +246,7 @@ const featuredProjects = [
       "This page provided the perfect opportunity to demonstrate the utilization of React, Chakra-UI (for the repsponsiveness), Formik (for the form) and Yup (for the form validation). ",
     imageSrc: "/React-Portfolio/coming-soon.jpg",
     url: "https://horoserp.github.io/coming-soon",
-    tags: ["Mentor", "React"],
+    tags: ["React", "Mentor"],
   },
   {
     title: "Four Card Feature Section",
