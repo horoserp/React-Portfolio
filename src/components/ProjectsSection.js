@@ -190,6 +190,14 @@ const projects = [
     tags: ["Mentor", "HTML5"],
   },
   {
+    title: "Coming Soon - Base Apparel",
+    description:
+      "This page provided the perfect opportunity to demonstrate the utilization of React, Chakra-UI (for the repsponsiveness), Formik (for the form) and Yup (for the form validation). ",
+    imageSrc: "/React-Portfolio/coming-soon.jpg",
+    url: "https://horoserp.github.io/coming-soon",
+    tags: ["Mentor", "React"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -233,6 +241,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Coming Soon - Base Apparel",
+    description:
+      "This page provided the perfect opportunity to demonstrate the utilization of React, Chakra-UI (for the repsponsiveness), Formik (for the form) and Yup (for the form validation). ",
+    imageSrc: "/React-Portfolio/coming-soon.jpg",
+    url: "https://horoserp.github.io/coming-soon",
+    tags: ["Mentor", "React"],
+  },
+  {
     title: "Four Card Feature Section",
     description:
       "This project uses multiple flexbox displays to create a four card display in a diamond structure. It is responsive across all devices, showing the optimal display.",
@@ -254,14 +270,6 @@ const featuredProjects = [
       "I used a combination of CSS Grid (as it is a 2-dimensional desing) and CSS Flexbox (to create the rating boxes and review cards). I focused on responsiveness for this project.",
     imageSrc: "/React-Portfolio/social-proof.jpg",
     url: "https://horoserp.github.io/social-proof",
-    tags: ["Mentor", "CSS"],
-  },
-  {
-    title: "Profile Card Component",
-    description:
-      "In this project, I am able to demonstrate the use of two background images and how to use the CSS background-position property to separate them.",
-    imageSrc: "/React-Portfolio/profile-card.jpg",
-    url: "https://horoserp.github.io/profile-card",
     tags: ["Mentor", "CSS"],
   },
 ];
