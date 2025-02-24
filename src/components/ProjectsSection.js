@@ -198,6 +198,14 @@ const projects = [
     tags: ["Mentor", "React"],
   },
   {
+    title: "Single Price Grid",
+    description:
+      "I was able to utilize CSS Grid to create this project for joining a community. I focused on Semantic HTML and responsiveness. I added hover and active states using @media (hover: hover) and CSS nesting.",
+    imageSrc: "/React-Portfolio/single-price-grid.jpg",
+    url: "https://horoserp.github.io/single-price-grid",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -241,6 +249,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Single Price Grid",
+    description:
+      "I was able to utilize CSS Grid to create this project for joining a community. I focused on Semantic HTML and responsiveness. I added hover and active states using @media (hover: hover) and CSS nesting.",
+    imageSrc: "/React-Portfolio/single-price-grid.jpg",
+    url: "https://horoserp.github.io/single-price-grid",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Coming Soon - Base Apparel",
     description:
       "This page provided the perfect opportunity to demonstrate the utilization of React, Chakra-UI (for the repsponsiveness), Formik (for the form) and Yup (for the form validation). ",
@@ -263,14 +279,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/article-preview.jpg",
     url: "https://horoserp.github.io/article-preview",
     tags: ["Mentor", "JavaScript"],
-  },
-  {
-    title: "Social Proof Card",
-    description:
-      "I used a combination of CSS Grid (as it is a 2-dimensional desing) and CSS Flexbox (to create the rating boxes and review cards). I focused on responsiveness for this project.",
-    imageSrc: "/React-Portfolio/social-proof.jpg",
-    url: "https://horoserp.github.io/social-proof",
-    tags: ["Mentor", "CSS"],
   },
 ];
 
