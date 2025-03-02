@@ -206,6 +206,14 @@ const projects = [
     tags: ["Mentor", "CSS"],
   },
   {
+    title: "Huddle Landing Page",
+    description:
+      "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
+    imageSrc: "/React-Portfolio/huddle-landing-page.jpg",
+    url: "https://horoserp.github.io/huddle-landing-page",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -249,6 +257,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Huddle Landing Page",
+    description:
+      "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
+    imageSrc: "/React-Portfolio/huddle-landing-page.jpg",
+    url: "https://horoserp.github.io/huddle-landing-page",
+    tags: ["Mentor", "CSS"],
+  },
+  {
     title: "Single Price Grid",
     description:
       "I was able to utilize CSS Grid to create this project for joining a community. I focused on Semantic HTML and responsiveness. I added hover and active states using @media (hover: hover) and CSS nesting.",
@@ -271,14 +287,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/four-card-section.jpg",
     url: "https://horoserp.github.io/four-card-section",
     tags: ["Mentor", "HTML5"],
-  },
-  {
-    title: "Article Preview Component",
-    description:
-      "In this component, I make use of JavaScript to 'open' a hidden social links navbar when the user clicks a button. Careful use of the CSS position property allows me to control the location.",
-    imageSrc: "/React-Portfolio/article-preview.jpg",
-    url: "https://horoserp.github.io/article-preview",
-    tags: ["Mentor", "JavaScript"],
   },
 ];
 
