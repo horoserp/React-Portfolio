@@ -214,6 +214,14 @@ const projects = [
     tags: ["Mentor", "CSS"],
   },
   {
+    title: "Intro Component with Sign Up Form",
+    description:
+      "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
+    imageSrc: "/React-Portfolio/intro-signup.jpg",
+    url: "https://horoserp.github.io/intro-signup",
+    tags: ["Mentor", "JavaScript"],
+  },
+  {
     title: "Landscape Page",
     description:
       "A responsive HTML5 page focusing on CSS skills including selectors (descendant, child, adjacent sibling, and pseudo-class), animations and shadow effects.",
@@ -257,6 +265,14 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Intro Component with Sign Up Form",
+    description:
+      "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
+    imageSrc: "/React-Portfolio/intro-signup.jpg",
+    url: "https://horoserp.github.io/intro-signup",
+    tags: ["Mentor", "JavaScript"],
+  },
+  {
     title: "Huddle Landing Page",
     description:
       "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
@@ -279,14 +295,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/coming-soon.jpg",
     url: "https://horoserp.github.io/coming-soon",
     tags: ["React", "Mentor"],
-  },
-  {
-    title: "Four Card Feature Section",
-    description:
-      "This project uses multiple flexbox displays to create a four card display in a diamond structure. It is responsive across all devices, showing the optimal display.",
-    imageSrc: "/React-Portfolio/four-card-section.jpg",
-    url: "https://horoserp.github.io/four-card-section",
-    tags: ["Mentor", "HTML5"],
   },
 ];
 
