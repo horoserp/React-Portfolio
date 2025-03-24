@@ -216,9 +216,17 @@ const projects = [
   {
     title: "Intro Component with Sign Up Form",
     description:
-      "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
+      "I coded this signup page using pure JavaScript for the input validation and CSS to display errors. The form cannot be submitted until all inputs are non-empty and valid.",
     imageSrc: "/React-Portfolio/intro-signup.jpg",
     url: "https://horoserp.github.io/intro-signup",
+    tags: ["Mentor", "JavaScript"],
+  },
+  {
+    title: "Ping Coming Soon Page",
+    description:
+      "I utilized the invalid and blur events to optimize the JavaScript validation of the email input. I removed the browser validation hints so that the website hints are clearly visible.",
+    imageSrc: "/React-Portfolio/coming-soon-ping.jpg",
+    url: "https://horoserp.github.io/coming-soon-ping",
     tags: ["Mentor", "JavaScript"],
   },
   {
@@ -265,9 +273,17 @@ const featuredProjects = [
     tags: ["React", "CSS"],
   },
   {
+    title: "Ping Coming Soon Page",
+    description:
+      "I utilized the invalid and blur events to optimize the JavaScript validation of the email input. I removed the browser validation hints so that the website hints are clearly visible.",
+    imageSrc: "/React-Portfolio/coming-soon-ping.jpg",
+    url: "https://horoserp.github.io/coming-soon-ping",
+    tags: ["Mentor", "JavaScript"],
+  },
+  {
     title: "Intro Component with Sign Up Form",
     description:
-      "This basic landing page demonstrates hover and active states, different mobile and desktop backgrounds, and implements social media links with FontAwesome.",
+      "I coded this signup page using pure JavaScript for the input validation and CSS to display errors. The form cannot be submitted until all inputs are non-empty and valid.",
     imageSrc: "/React-Portfolio/intro-signup.jpg",
     url: "https://horoserp.github.io/intro-signup",
     tags: ["Mentor", "JavaScript"],
@@ -287,14 +303,6 @@ const featuredProjects = [
     imageSrc: "/React-Portfolio/single-price-grid.jpg",
     url: "https://horoserp.github.io/single-price-grid",
     tags: ["Mentor", "CSS"],
-  },
-  {
-    title: "Coming Soon - Base Apparel",
-    description:
-      "This page provided the perfect opportunity to demonstrate the utilization of React, Chakra-UI (for the repsponsiveness), Formik (for the form) and Yup (for the form validation). ",
-    imageSrc: "/React-Portfolio/coming-soon.jpg",
-    url: "https://horoserp.github.io/coming-soon",
-    tags: ["React", "Mentor"],
   },
 ];
 
